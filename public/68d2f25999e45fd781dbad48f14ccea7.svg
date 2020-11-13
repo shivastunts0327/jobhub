@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="132" viewBox="0 0 134 132">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.63" y1="1" x2="0.633" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f37135"/>
+      <stop offset="1" stop-color="#cd3033"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_3714" data-name="Group 3714" transform="translate(-1412 -1277)">
+    <path id="Rectangle_555" data-name="Rectangle 555" d="M65.635,0h2.729A65.635,65.635,0,0,1,134,65.635v59.8A6.564,6.564,0,0,1,127.436,132H66.365A66.365,66.365,0,0,1,0,65.635v0A65.635,65.635,0,0,1,65.635,0Z" transform="translate(1412 1277)" fill="url(#linear-gradient)"/>
+    <path id="Icon_feather-phone-call" data-name="Icon feather-phone-call" d="M36.48,11.8a12.874,12.874,0,0,1,10.17,10.17M36.48,1.5A23.173,23.173,0,0,1,56.95,21.944M54.375,42.49v7.724a5.15,5.15,0,0,1-5.613,5.15,50.954,50.954,0,0,1-22.22-7.9A50.208,50.208,0,0,1,11.093,32.011a50.954,50.954,0,0,1-7.9-22.323A5.15,5.15,0,0,1,8.313,4.075h7.724A5.15,5.15,0,0,1,21.186,8.5a33.06,33.06,0,0,0,1.8,7.235,5.15,5.15,0,0,1-1.159,5.433l-3.27,3.27A41.2,41.2,0,0,0,34.009,39.89l3.27-3.27a5.15,5.15,0,0,1,5.433-1.159,33.06,33.06,0,0,0,7.235,1.8A5.15,5.15,0,0,1,54.375,42.49Z" transform="translate(1448.537 1318.974)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

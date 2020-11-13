@@ -1,0 +1,219 @@
+.addresume-container {
+    margin: 100px;
+    display: flex;
+}
+
+.stepper-background {
+    padding: 50px 60px 30px 100px;
+}
+
+.stepper {
+    // background: $ihs;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.resume-container-border {
+    margin: 70px 0;
+    border-radius: 10px;
+    padding: 30px 30px 100px 30px;
+    border: 2px solid rgb(243, 242, 242);
+}
+
+.resume-inner-container-padding {
+    text-align: center;
+}
+
+.heading {
+    margin: 10px 0 30px 0px;
+}
+
+.heading-label {
+    color: $ihs-color;
+}
+
+textarea {
+    width: 600px;
+    height: 150px;
+    background-color: rgb(250, 249, 249);
+    border: none;
+    border-radius: 10px;
+    box-shadow: -1px 1px 1px 1px #d3d1d1;
+}
+
+.next {
+    float: right;
+    padding: 5px 20px;
+    margin-top: 30px;
+    background: #F16E35;
+    border: none;
+    color: $white;
+    border-radius: 5px;
+    .fas {
+        padding-left: 10px;
+    }
+}
+
+.back {
+    padding: 5px 20px;
+    background: #F16E35;
+    border: none;
+    color: $white;
+    border-radius: 5px;
+    float: left;
+    margin-top: 30px;
+    .fas {
+        padding-right: 10px;
+    }
+}
+
+.preview {
+    // margin-left: 400px;
+    float: right;
+    padding: 5px 20px;
+    margin-top: 30px;
+    background: #F16E35;
+    border: none;
+    color: $white;
+    border-radius: 5px;
+}
+
+.submit {
+    margin-left: 10px;
+    float: right;
+    padding: 5px 20px;
+    margin-top: 30px;
+    background: #F16E35;
+    border: none;
+    color: $white;
+    border-radius: 5px;
+}
+
+.resume-input {
+    border: none;
+    padding: 20px;
+    box-shadow: -1px 1px 1px 1px #d3d1d1;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+.roles-repso {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.roles-width {
+    width: 720px;
+    padding: 10px;
+}
+
+.add-experience {
+    margin-top: 20px;
+    padding: 5px 20px;
+    background: rgb(248, 200, 208);
+    border: none;
+    color: rgba(165, 42, 42, 0.692);
+    border-radius: 5px;
+    .fas {
+        padding-right: 10px;
+    }
+}
+
+.social-select {
+    border: none;
+    padding: 20px;
+    box-shadow: -1px 1px 1px 1px #d3d1d1;
+    border-radius: 5px;
+    color: $ihs-color;
+}
+
+@media screen and (max-width: 1340px) {
+    .addresume-container {
+        margin: 100px 50px;
+    }
+}
+@media screen and (max-width: 1240px) {
+    .addresume-container {
+        margin: 100px 20px 100px 0px;
+    }
+}
+@media screen and (max-width: 1170px) {
+    .stepper-background {
+        padding: 50px 60px 30px 50px;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .stepper-background {
+        padding: 50px 10px 30px 10px;
+    }
+    .stepper {
+        width: 185px;
+    }
+}
+@media screen and (max-width: 895px) {
+    textarea {
+        width: 500px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 795px) {
+    textarea {
+        width: 400px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 695px) {
+    textarea {
+        width: 300px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 595px) {
+    textarea {
+        width: 200px;
+        height: 100px;
+    }
+    .next {
+        padding: 5px 10px;
+        font-size: 10px;
+        .fas {
+            font-size: 10px;
+        }
+    }
+    
+    .back {
+        padding: 5px 10px;
+        font-size: 10px;
+        .fas {
+            font-size: 10px;
+        }
+    }
+    
+    .preview {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    
+    .submit {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .stepper-background {
+        display: none;
+    }
+    .addresume-container {
+        margin: 100px 50px 100px 50px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .addresume-container {
+        margin: 100px 20px 100px 20px;
+    }
+}
+@media screen and (max-width: 340px) {
+    .addresume-container {
+        margin: 100px 10px 100px 10px;
+    }
+}

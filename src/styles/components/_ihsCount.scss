@@ -1,0 +1,44 @@
+.ihs-count {
+    margin-top: 650px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 200px 50px 200px;
+    text-align: center;
+    img {
+        width: 60px;
+        height: 60px;
+    }
+    p {
+        color: $ihs-color;
+        padding-top: 15px;
+    }
+    h1 {
+        color: $ihs-color;
+    }
+    .count-flex {
+        display: flex;
+        .plus {
+            margin-top: 10px;
+            font-size: 25px;
+            font-weight: 600;
+        }
+    }
+}
+// .count-center {
+//     text-align: center;
+// }
+
+@media screen and (max-width: 900px) {
+    .ihs-count {
+        margin-top: 70px;
+        flex-direction: column;
+    }
+    .count-flex {
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .ihs-count {
+        display: none;
+    }
+}

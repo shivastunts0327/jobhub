@@ -1,0 +1,114 @@
+// .nav {
+//     display: flex;
+//     justify-content: space-between;
+//     height: 15vh;
+//     width: 100%;
+//     align-items: center;
+//     border-radius: 0 0 0 100px;
+//     background: linear-gradient(#E05034, #F16E35);
+// }
+
+.ihs-whitelogo {
+  width: 180px;
+}
+.whitelogo {
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+  
+.navlink {
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    //padding-right: 20px;
+}
+
+.navlinkresume {
+  //margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  //margin-right: 50px;
+}
+  
+.links {
+    color: $white;
+    font-style: Montserrat;
+}
+.links:hover {
+  text-decoration: none;
+  color: $white;
+}
+  
+.bell1 {
+    color: $white;
+}
+  
+.country {
+    margin-top: -20px;
+    border-radius: 20px;
+    width: 70px;
+    padding: 5px;
+}
+  
+.hamburger-Toggle {
+    cursor: pointer;
+    color: #4d4d4d;
+    display: none;
+    margin-left: 30px;
+}
+  
+@media screen and (max-width: 1000px) {
+    body {
+      overflow-x: hidden;
+    }
+    .ihs-whitelogo {
+      width: 120px;
+      margin-top: 20px;
+    }
+    .hamburger-Toggle {
+      color: $white;
+      display: block;
+      padding-right: 20px;
+    }
+    .links {
+        color: #4d4d4d;
+    }
+    .bell1 {
+        color: #4d4d4d;
+    }
+    .navlink {
+      padding-top: 20px;
+      padding-bottom: 20vh;
+      position: absolute;
+      right: 0px;
+      display: flex;
+      flex-direction: column;
+      height: 80vh;
+      align-items: center;
+      width: 100%;
+      top: 20vh;
+      font-size: $m-size;
+      background-color: $white;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+    }
+    .navlinkresume {
+      position: absolute;
+      right: 0px;
+      display: flex;
+      flex-direction: column;
+      height: 85vh;
+      align-items: center;
+      width: 100%;
+      top: 10vh;
+      font-size: $m-size;
+      background-color: #ffffff;
+      transform: translateX(120%);
+      transition: transform 0.5s ease-in;
+    }
+    .active {
+      transform: translateX(0%);
+    }
+}

@@ -1,0 +1,134 @@
+.modal-left-login {
+    background: url('/public/images/jobseeker/login-bg.svg');
+    width: 70%;
+    background-size: cover;
+}
+
+.login-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot {
+    color: $text;
+    margin-left: 130px;
+}
+.forgot:hover {
+    text-decoration: none;
+    color: $text;
+}
+.connect {
+    margin-top: 0px;
+    margin-bottom: 14px;
+    color: $ihs-color;
+    text-align: center;
+}
+
+.social-login-facebook {
+    background: $white;
+    border: none;
+    padding: 15px 12px;
+    color: $ihs-color;
+    border-radius: 10px;
+    border: 1.5px solid #4267B2;
+    display: flex;
+    .fab {
+        margin-top: 10px;
+    }
+    p {
+        margin-top: 5px;
+    }
+}
+
+.social-login-facebook:hover {
+    text-decoration: none;
+    color: $ihs-color;
+}
+
+.social-login-google {
+    background: $white;
+    color: $ihs-color;
+    border: none;
+    padding: 13px 13px;
+    border-radius: 10px;
+    border: 1.5px solid #F44336;
+    display: flex;
+    .fab {
+        margin-top: 10px;
+    }
+    p {
+        margin-top: 5px;
+    }
+}
+
+.social-login-google:hover {
+    text-decoration: none;
+    color: $ihs-color;
+}
+
+.social-login-linkedin {
+    background: $white;
+    border: none;
+    color: $ihs-color;
+    padding: 15px 12px;
+    border-radius: 10px;
+    border: 1.5px solid #0E76A9;
+    display: flex;
+    .fab {
+        margin-top: 10px;
+    }
+    p {
+        margin-top: 5px;
+    }
+}
+
+.social-login-linkedin:hover {
+    text-decoration: none;
+    color: $ihs-color;
+}
+
+.form-flex {
+    margin-bottom: 18px;
+}
+
+.form-flex .fab {
+    margin-left: 15px;
+}
+
+.fa-facebook-f {
+    color: #4267B2;
+}
+.fa-google {
+    color: #F44336;
+}
+.fa-linkedin-in {
+    color: #0E76A9;
+}
+
+.modal-login .newUser {
+    margin-top: 10px;
+    color: $ihs-color;
+}
+
+.modal-login .signup {
+    margin-top: 5px;
+    margin-left: 2px;
+    color: $text;
+    font-size: 20px;
+}
+.signup:hover {
+    text-decoration: none;
+}
+
+.login-account {
+    margin-top: 50px;
+    margin-bottom: 37px;
+}
+
+.modal-header-flex {
+    text-align: end;
+}
+.modal-register {
+    margin-top: 20px;
+    padding: 20px 165px  20px 165px;
+}

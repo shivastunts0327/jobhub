@@ -1,0 +1,209 @@
+.ReactModalPortal .ReactModal__Overlaey {
+    opacity: 1;
+    // align-items: center;
+    // justify-content: center;
+    transition: opacity 200ms ease-in-out;
+}
+
+
+.flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.modal-left {
+    width: 50%;
+    background: url('/public/images/jobseeker/modalLeft.svg');
+    background-size: cover;
+}
+
+.modal-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 60px;
+    margin-bottom: 20px;
+}
+
+.register-account {
+    padding: 30px 0;
+}
+
+
+.form-styling {
+    margin-bottom: 10px;
+    color: $ihs-color;
+    padding: 20px;
+    background: $white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #d3d1d1;
+}
+// #form-styling {
+//     margin-bottom: 10px;
+//     color: $ihs-color;
+//     //padding: 20px;
+//     background: $white;
+//     border: none;
+//     border-radius: 5px;
+//     box-shadow: 1px 1px 5px 1px #d3d1d1;
+// }
+
+.form-styling-p {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: $ihs-color;
+}
+
+.form-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-resume {
+    padding: 15px 30px;
+    background: #f1f0f0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #d3d1d1;
+    color: $ihs-color;
+    .fas {
+        padding: 0px 10px;
+        color: #aaa;
+    }
+}
+
+.or {
+    margin-top: 15px;
+    color: $ihs-color;
+}
+
+.checkbox-flex {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.checkbox-flex-login {
+    display: flex;
+    margin-top: 10px;
+}
+
+.checkbox {
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.accept {
+    color: $ihs-color;
+    margin-right: 10px;
+}
+
+.terms {
+    color: $text;
+}
+.terms:hover {
+    text-decoration: none;
+    color: $text;
+}
+
+.modal-register {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: none;
+    background: $ihs;
+    color: $white;
+    border-radius: 10px;
+    .fas {
+        margin-left: 20px;
+    }
+}
+
+.modal-login {
+    display: flex;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.already {
+    color: $ihs-color;
+    margin-right: 10px;
+}
+
+.modal-login {
+    color: #E05034;
+    margin-top: 0px;
+}
+
+.modalIcon input[type=text] {
+    padding-left: 40px;
+}
+
+.modalIcon input[type=email] {
+    padding-left: 40px;
+}
+
+.modalIcon input[type=password] {
+    padding-left: 40px;
+}
+
+.modalIcon {
+    position: relative;
+    margin-right: 10px;
+}
+
+.modalIcon i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 12px 10px;
+    color: #aaa;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    .fas {
+        padding: 10px;
+        color: #aaa;
+    }
+}
+
+.exp-flex {
+    display: flex;
+}
+.form-styling-exp {
+    margin-bottom: 10px;
+    color: $ihs-color;
+    padding: 20px 40px 20px 20px;
+    margin-right: 10px;
+    background: $white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #d3d1d1;
+}
+
+.form-styling-location {
+    margin-bottom: 10px;
+    color: $ihs-color;
+    padding: 20px 293px 20px 20px;
+    background: $white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #d3d1d1;
+}
+
+.modal-register-jobseeker {
+    margin: 10px 0 10px 20px;
+    padding: 20px 215px;
+    border: none;
+    background: $ihs;
+    color: $white;
+    border-radius: 10px;
+    .fas {
+        margin-left: 20px;
+    }
+}

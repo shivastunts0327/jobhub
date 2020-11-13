@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="132" viewBox="0 0 134 132">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.63" y1="1" x2="0.633" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f37135"/>
+      <stop offset="1" stop-color="#cd3033"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_3712" data-name="Group 3712" transform="translate(-349 -1280)">
+    <g id="Group_3711" data-name="Group 3711">
+      <path id="Rectangle_223" data-name="Rectangle 223" d="M65.635,0h2.729A65.635,65.635,0,0,1,134,65.635v59.8A6.564,6.564,0,0,1,127.436,132H66.365A66.365,66.365,0,0,1,0,65.635v0A65.635,65.635,0,0,1,65.635,0Z" transform="translate(349 1280)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Icon_feather-map-pin" data-name="Icon feather-map-pin" transform="translate(388.294 1312.808)">
+      <path id="Path_3477" data-name="Path 3477" d="M59.507,29C59.507,50.4,32,68.731,32,68.731S4.5,50.4,4.5,29a27.5,27.5,0,1,1,55.007,0Z" transform="translate(-4.5 -1.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_3478" data-name="Path 3478" d="M31.836,19.668A9.168,9.168,0,1,1,22.668,10.5,9.168,9.168,0,0,1,31.836,19.668Z" transform="translate(4.836 7.836)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,466 @@
+.employer-main-container {
+    margin: 20px;
+}
+.employer-container {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+
+.employerForm {
+    padding: 30px 0px;
+}
+
+.employer-info {
+    margin-left: 2px;
+    padding-bottom: 10px;
+}
+
+.employerInfo-img {
+    width: 35px;
+    height: 35px;
+}
+
+.employer-info-p {
+    margin: 5px 0 0 10px;
+}
+
+.other-info {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.other-info-img {
+    width: 35px;
+    height: 35px;
+}
+
+.other-info-p {
+    margin: 5px 0 0 10px;
+}
+
+.employer-form-margin {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.employer-form {
+    margin-bottom: 10px;
+    color: $ihs-color;
+    padding: 20px 80px 20px 20px;
+    background: $white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #d3d1d1;
+}
+
+.employer-form-noIcon {
+    margin-bottom: 10px;
+    color: $ihs-color;
+    padding: 20px 100px 20px 20px;
+    background: $white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #d3d1d1;
+}
+
+.company-size {
+    padding: 18px 200px 18px 20px;
+    background: $white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px #d3d1d1;
+}
+
+.checkbox-employer-form {
+    margin: 7px 10px 10px -20px;
+}
+
+.terms-employer-form {
+    color: $text;
+    margin-left: 10px;
+}
+
+.terms-employer-form:hover {
+    text-decoration: none;
+    color: $text;
+}
+
+.demo-register {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.employer-request-demo {
+    border: none;
+    padding: 20px 40px;
+    background: #646464;
+    color: $white;
+    border-radius: 5px;
+}
+
+.employer-register {
+    border: none;
+    padding: 20px 50px;
+    background: #F06D35;
+    color: $white;
+    border-radius: 5px;
+    margin-left: 10px;
+    .fas {
+        margin-left: 10px;
+    }
+}
+
+.employer-reg-page-benifits-bg {
+    background: #FCE6DE;
+    padding: 10px 20px 10px 100px;
+    margin: 20px 0px;
+    border-radius: 0 60px;
+    p {
+        font-size: 15px;
+    }
+}
+
+.employer-reg-page-benifits-img {
+    width: 100px;
+    height: 450px;
+    margin-top: -700px;
+}
+
+.employer-reg-page-benifits-container {
+    margin-top: 40px;
+}
+
+
+
+.employer-reg-page-last-frame-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid $text;
+    box-shadow: 1px 1px 5px 1px #d3d1d1;
+    background: $white;
+    border-radius: 10px;
+    margin: 30px 15%;
+}
+
+.employer-reg-page-last-frame-img {
+    margin-top: -30px;
+    margin-left: -10px;
+    width: 450px;
+    height: auto;
+}
+
+.employer-lastframe {
+    padding: 10px 30px;
+    h2 {
+        font-size: 30px;
+    }
+}
+
+.employer-btn-flex-bottom {
+    display: flex;
+    p {
+        margin: 10px 10px;
+    }
+}
+
+.emp-reg-link-add-resume {
+    background: $white;
+    border: 1.5px solid $text;
+    color: $text;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.emp-reg-link-postajob {
+    background: $text;
+    color: $white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.emp-reg-link-add-resume:hover {
+    text-decoration: none;
+    background: $text;
+    color: $white;
+}
+
+.emp-reg-link-postajob:hover {
+    text-decoration: none;
+    background: $white;
+    color: $text;
+    border: 1.5px solid $text;
+}
+
+.emp-reg-lastframe-orangeline {
+    background: $text;
+    height: 1vh;
+    border-radius: 0 0 10px 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .employer-reg-page-benifits-img {
+        width: 100px;
+        height: 580px;
+        margin-top: -890px;
+    }
+}
+@media screen and (max-width: 1115px) {
+    .employer-reg-page-last-frame-img {
+        width: 400px;
+    }
+    .employer-lastframe {
+        h2 {
+            font-size: 25px;
+        }
+    }
+    .emp-reg-link-add-resume {
+        padding: 10px 15px;
+    }
+    .emp-reg-link-postajob {
+        padding: 10px 15px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .employer-reg-page-last-frame-img {
+        width: 400px;
+    }
+    .employer-lastframe {
+        padding: 10px 10px;
+        p {
+            font-size: 12px;
+        }
+    }
+    .emp-reg-link-add-resume {
+        padding: 5px 15px;
+    }
+    .emp-reg-link-postajob {
+        padding: 5px 15px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .employer-reg-page-benifits-img {
+        width: 100px;
+        height: 400px;
+        margin-top: -550px;
+        margin-left: 150px;
+    }
+    .employer-reg-page-benifits-bg {
+        margin: 10px 150px;
+    }
+}
+@media screen and (max-width: 952px) {
+    .emp-reg-link-add-resume {
+        padding: 10px 15px 0px 15px;
+        font-size: 12px;
+    }
+    .emp-reg-link-postajob {
+        padding: 10px 15px 0px 15px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 918px) {
+    .employer-reg-page-last-frame-img {
+        width: 330px;
+    }
+    .employer-lastframe {
+        h2 {
+            font-size: 20px;
+        }
+    }
+}
+@media screen and (max-width: 871px) {
+    .employer-lastframe {
+        p {
+            display: none;
+        }
+        .employer-btn-flex-bottom {
+            flex-direction: column;
+            text-align: center;
+            padding: 0px 60px;
+            p {
+                display: block;
+            }
+        }
+    }
+    .emp-reg-link-add-resume {
+        padding: 5px 15px 5px 15px;
+    }
+    .emp-reg-link-postajob {
+        padding: 5px 15px 5px 15px;
+    }
+}
+@media screen and (max-width: 801px) {
+    .employer-lastframe {
+        .employer-btn-flex-bottom {
+            flex-direction: column;
+            text-align: center;
+            padding: 0px 30px;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .employer-reg-page-benifits-img {
+        width: 100px;
+        height: 330px;
+        margin-top: -500px;
+        margin-left: 50px;
+    }
+    .employer-reg-page-benifits-bg {
+        margin: 10px 50px;
+    }
+    .employer-form {
+        padding: 20px 20px 20px 20px;
+    }
+    .employer-form-noIcon {
+        padding: 20px 40px 20px 20px;
+    }
+    .company-size {
+        padding: 18px 140px 18px 20px;
+    }
+}
+@media screen and (max-width: 769px) {
+    .employer-reg-page-last-frame-container {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    .employer-reg-page-benifits-img {
+        width: 100px;
+        height: 400px;
+        margin-top: -550px;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 577px) {
+    .employerForm {
+        margin-left: 20%;
+    }
+    .employer-form {
+        padding: 20px 80px 20px 20px;
+    }
+    .employer-form-noIcon {
+        padding: 20px 100px 20px 20px;
+    }
+    .company-size {
+        padding: 18px 200px 18px 20px;
+    }
+    .demo-register {
+        margin-right: 100px;
+    }
+    .employer-register {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .employerForm {
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .employer-reg-page-benifits-img {
+        margin-top: -550px;
+        margin-left: 10px;
+    }
+    .employer-reg-page-benifits-bg {
+        margin: 10px 10px;
+    }
+}
+@media screen and (max-width: 462px) {
+    .employer-reg-page-benifits-img {
+        width: 100px;
+        height: 280px;
+        margin-top: -400px;
+    }
+    .employer-reg-page-benifits-bg {
+        p {
+            font-size: 10px;
+        }
+    }
+}
+@media screen and (max-width: 450px) {
+    .employerForm {
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 435px) {
+    .employer-reg-page-benifits-img {
+        width: 100px;
+        height: 300px;
+        margin-top: -480px;
+    }
+}
+@media screen and (max-width: 423px) {
+    .employer-reg-page-benifits-img {
+        width: 100px;
+        height: 300px;
+        margin-top: -400px;
+    }
+    .employer-reg-page-benifits-bg {
+        h2 {
+            font-size: 10px;
+        }
+    }
+}
+@media screen and (max-width: 400px) {
+    .employer-form-noIcon {
+        padding: 20px 80px 20px 20px;
+    }
+    .company-size {
+        padding: 18px 180px 18px 20px;
+    }
+}
+@media screen and (max-width: 395px) {
+    .employer-reg-page-benifits-img {
+        width: 100px;
+        height: 300px;
+        margin-top: -400px;
+    }
+    .employer-reg-page-benifits-bg {
+        padding: 10px 20px 10px 80px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .employerForm {
+        margin-left: 5%;
+    }
+    .employer-reg-page-benifits-img {
+        width: 100px;
+        height: 280px;
+        margin-top: -430px;
+    }
+}
+@media screen and (max-width: 359px) {
+    .employer-reg-page-benifits-img {
+        width: 100px;
+        height: 300px;
+        margin-top: -500px;
+    }
+}
+@media screen and (max-width: 348px) {
+    .employer-form {
+        padding: 20px 60px 20px 20px;
+    }
+    .employer-form-noIcon {
+        padding: 20px 60px 20px 20px;
+    }
+    .company-size {
+        padding: 18px 160px 18px 20px;
+    }
+    .demo-register {
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width: 334px) {
+    .employerForm {
+        margin-left: 1%;
+    }
+}
+@media screen and (max-width: 329px) {
+    .employer-reg-page-benifits-img {
+        height: 350px;
+        margin-top: -500px;
+    }
+}

@@ -1,0 +1,109 @@
+.trending-categories-bg {
+    background-color: rgb(250, 248, 248);
+    border-radius: 0px 150px 0px 150px;
+    margin-bottom: 50px;
+}
+
+.trending-categories-container {
+    padding: 20px;
+}
+
+.trending-categories-headline {
+    text-align: center;
+}
+
+.categories-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.category {
+    background: $white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    img {
+        width: 50px;
+        height: 50px;
+    }
+    p{
+        padding: 10px 0px;
+        color: $ihs-color;
+    }
+    button {
+        border: none;
+        border: 1.5px solid $text;
+        background: $white;
+        color: $ihs-color;
+        border-radius: 10px;
+        padding: 2px 15px;
+    }
+}
+
+.category:hover {
+    box-shadow: 1px 1px 5px 1px #d3d1d1;
+}
+
+.category button:hover {
+    color: $white;
+    background-color: $text;
+}
+
+.category-it {
+    padding: 20px 0px;
+}
+
+.category-healthcare{
+    
+    padding: 20px 0px;
+}
+
+.category-bfsi {
+    
+    padding: 20px 0px;
+}
+
+.category-engineering {
+    
+    padding: 20px 0px;
+}
+
+.category-education {
+    
+    padding: 20px 0px;
+}
+
+.category-hr {
+    
+    padding: 20px 0px;
+}
+
+.category-bpo {
+    
+    padding: 20px 0px;
+}
+
+.category-sales {
+    
+    padding: 20px 0px;
+}
+
+.category-legal {
+    
+    padding: 20px 0px;
+}
+
+.category-media {
+    
+    padding: 20px 0px;
+}
+
+.category-fashion {
+    
+    padding: 20px 0px;
+}
+
+.category-real {
+    
+    padding: 20px 0px;
+}

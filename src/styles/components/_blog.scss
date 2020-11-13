@@ -1,0 +1,57 @@
+.blog {
+    margin-top: 30px;
+}
+
+.ihs-blog {
+    display: flex;
+    h3 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .blog-month {
+        font-size: 20px;
+    }
+    .blog-date-month {
+        padding: 10px 20px 0 10px;
+    }
+}
+
+.blog-title {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    a {
+        color: $ihs-color;
+        text-decoration: none;
+    }
+}
+
+.blog-text {
+    padding: 0 10px 10px 10px;
+}
+
+.blog-footer {
+    padding: 0 20px 0px 20px;
+}
+
+.blog-user-comment {
+    display: flex;
+    justify-content: space-between;
+    .user-comment {
+        display: flex;
+        color: $ihs-color;
+        text-decoration: none;
+        .far {
+            padding-right: 10px;
+            margin-top: 4px;
+        }
+    }
+}
+
+.blog:hover {
+    background:   #F16E35;
+    color: $white;
+    a:hover {
+        color: $white;
+    }
+}

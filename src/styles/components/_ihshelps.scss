@@ -1,0 +1,50 @@
+.orangehelps {
+   background-color: $text;
+   border-radius: 230px 0 0 0;
+   margin-bottom: 50px;
+   position: absolute;
+
+}
+
+.helpsbg {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.helps-heading {
+    top: 20px;
+    position: absolute;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.helps-headline {
+    color: $white;
+}
+
+.helps-body {
+    display: flex;
+    margin: 150px 200px 0 200px;
+    justify-content: space-around;
+    position: absolute;
+    text-align: center;
+    img {
+        width: 150px;
+        height: 150px;
+    }
+    h2 {
+        color: $white;
+        padding: 10px 20px 10px 20px;
+    }
+    p {
+        color: $white;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .orangehelps {
+        display: none;
+    }
+}

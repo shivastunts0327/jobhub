@@ -1,0 +1,133 @@
+// .homepage-main-bg {
+//     background: url('/public/images/bg2.jpeg');
+//     background-repeat: no-repeat;
+//     height: 100vh;
+//     background-position: center;
+// }
+
+.headline {
+    margin: 50px 100px;
+    text-align: center;
+    color: $ihs-color;
+}
+.homepage-margin {
+    margin-top: 0px;
+    height: 10vh;
+}
+.landing-page {
+    margin: 100px 30px 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.frame-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 40px 40px;
+    text-align: center;
+    box-shadow: -5px 5px 5px 5px #d3d1d1;
+    border-radius: 20px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    background: $white;
+
+    h1 {
+        color: #4d4d4d;
+        padding-bottom: 10px;
+    }
+    p {
+        color: #4d4d4d;
+        padding-bottom: 20px;
+    }
+    .pic {
+        padding-top: 30px;
+        width: 125px;
+        height: 150px;
+    }
+    .frame1-btn-1 {
+        border: none;
+        padding: 12px 20px;
+        background: $ihs;
+        color: $white;
+        border-radius: 25px;
+    }
+    .frame1-btn-1:hover {
+        text-decoration: none;
+    }
+    .frame1-btn-2 {
+        border: none;
+        padding: 12px 35px;
+        background: $ihs;
+        color: $white;
+        border-radius: 25px;
+    }
+    .frame1-btn-2:hover {
+        text-decoration: none;
+    }
+}
+
+.box-modal {
+    display: flex;
+}
+.box-modal:hover {
+    text-decoration: none;
+}
+.frame-1:hover {
+    box-shadow: -10px 10px 10px 10px #d3d1d1;
+}
+
+.frame1-btn:hover {
+    background: $white;
+    color: $text;
+    border: 1.5px solid #E05034;
+}
+
+.frame1-right {
+    padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .landing-page {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .headline {
+        display: none;
+    }
+    .landing-page {
+        flex-direction: column;
+        margin: 30px 30px;
+        .frame-1 {
+            margin-bottom: 50px;
+            margin-right: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .frame-1 {
+        padding-top: -50px;
+        .pic {
+            width: 80px;
+            height: 120px;
+        }
+    }
+    .frame1-right {
+        padding: 0 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .frame-1 {
+        padding: 10px 10px 30px 10px;
+    }
+    .frame1-btn-1 {
+        font-size: 12px;
+    }
+    .frame1-btn-2 {
+        font-size: 12px;
+    }
+}

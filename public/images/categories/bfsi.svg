@@ -1,0 +1,16 @@
+<svg id="marketing" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67.432" height="68.16" viewBox="0 0 67.432 68.16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.63" y1="1" x2="0.633" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f37135"/>
+      <stop offset="1" stop-color="#cd3033"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_445" data-name="Group 445" transform="translate(0 0)">
+    <g id="Group_444" data-name="Group 444">
+      <path id="Path_4375" data-name="Path 4375" d="M157.092,218.936h-12.53a1.9,1.9,0,0,0-1.9,1.9v24.585a1.9,1.9,0,0,0,1.9,1.9h12.53a1.9,1.9,0,0,0,1.9-1.9V220.834A1.9,1.9,0,0,0,157.092,218.936Zm-1.9,24.585h-8.733V222.733h8.733Z" transform="translate(-117.108 -179.158)" fill="url(#linear-gradient)"/>
+      <path id="Path_4376" data-name="Path 4376" d="M293.546,136.911H280.921a1.9,1.9,0,0,0-1.9,1.9V178.3a1.9,1.9,0,0,0,1.9,1.9h12.625a1.9,1.9,0,0,0,1.9-1.9V138.809A1.9,1.9,0,0,0,293.546,136.911Zm-1.9,39.488H282.82V140.708h8.828Z" transform="translate(-228.692 -112.036)" fill="url(#linear-gradient)"/>
+      <path id="Path_4377" data-name="Path 4377" d="M20.305,269.613H7.68a1.9,1.9,0,0,0-1.9,1.9v15.378a1.9,1.9,0,0,0,1.9,1.9H20.305a1.9,1.9,0,0,0,1.9-1.9V271.511A1.9,1.9,0,0,0,20.305,269.613Zm-1.9,15.378H9.579V273.41h8.828Z" transform="translate(-5.095 -220.628)" fill="url(#linear-gradient)"/>
+      <path id="Path_4378" data-name="Path 4378" d="M68.946,1.9a1.614,1.614,0,0,0-1.234-.664L50.436.006a1.9,1.9,0,0,0-.285,3.8l12.227.83L39.9,22.218,22.718,8.739a1.9,1.9,0,0,0-2.468.095L2.595,25.73A1.9,1.9,0,0,0,2.5,28.387a1.709,1.709,0,0,0,1.424.664,1.9,1.9,0,0,0,1.329-.57L21.674,12.725,38.665,26.109a1.9,1.9,0,0,0,2.373,0L65.339,7.2l-.95,11.791a1.993,1.993,0,0,0,1.8,1.993h.095a1.9,1.9,0,0,0,1.9-1.709L69.42,3.233A1.519,1.519,0,0,0,68.946,1.9Z" transform="translate(-2.003 0)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

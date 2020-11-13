@@ -1,0 +1,292 @@
+.jobseeker-subheader {
+    margin-top: 100px;
+    padding: 15px;
+    margin-left: 82%;
+    .fab {
+        padding: 0 10px;
+    }
+    .fa-linkedin {
+        color: $linkedin;
+    }
+    .fa-twitter {
+        color: $twitter;
+    }
+    .fa-facebook {
+        color: $facebook;
+    }
+    .fa-instagram {
+        color: $instagram;
+    }
+    .fa-youtube {
+        color: red;
+    }
+}
+
+
+.jobseeker {
+    display: flex;
+    margin: 20px 280px 100px 300px;
+}
+
+.jobseeker-left {
+    width: 38%;
+    //margin-right: 10px auto;
+}
+
+.jobseeker-img {
+    width: 400px;
+    height: 535px;
+}
+
+.jobseeker-details {
+    display: flex;
+}
+.jobseeker-field-star {
+    display: flex;
+}
+
+.jobseeker-registration {
+    margin-top: 0px;
+}
+
+.job-signin {
+    margin: 10px 0 0px 63%;
+}
+// .jobseeker-registration-file-upload-margin-auto {
+//     margin: auto;
+// }
+.file {
+    color: transparent;
+}
+.file::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.file::before {
+    content: 'Upload Resume';
+    color: $ihs-color;
+    display: inline-block;
+    background: #f3f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+ 
+}
+
+.file:active {
+    outline: 0;
+}
+.file:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+}
+  
+.errorMessage {
+    color: red;
+}
+
+.login-tag {
+    color: $text;
+    margin-top: -5px;
+    font-size: 20px;
+}
+.login-tag:hover {
+    text-decoration: none;
+    color: $text;
+}
+
+button:disabled,
+button[disabled]{
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.red-asterisk {
+    color: red;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+    .jobseeker {
+        margin: 20px 280px 100px 250px;
+    }
+}
+@media screen and (max-width: 1360px) {
+    .jobseeker {
+        margin: 20px 280px 100px 200px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .jobseeker {
+        margin: 20px 280px 100px 150px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .jobseeker {
+        margin: 20px 230px 100px 150px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .jobseeker {
+        margin: 20px 180px 100px 150px;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .jobseeker-subheader {
+        margin-left: 79%;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .jobseeker {
+        margin: 20px 160px 100px 100px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .jobseeker {
+        margin: 20px 140px 100px 80px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .jobseeker {
+        margin: 20px 120px 100px 60px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .jobseeker-subheader {
+        margin-left: 73%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .jobseeker {
+        margin: 20px 80px 100px 60px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .jobseeker {
+        margin: 20px 80px 100px 0px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .jobseeker-subheader {
+        margin-left: 70%;
+    }
+    .jobseeker {
+        margin: 20px 50px 100px 0px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .jobseeker-left {
+        display: none;
+    }
+    .jobseeker {
+        margin: 20px 0px 100px 0px;
+    }
+    .jobseeker-registration {
+        margin: auto;
+    }
+    .job-signin {
+        margin: 10px 0 0px 53%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .jobseeker-subheader {
+        margin-left: 60%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .jobseeker-subheader {
+        margin-left: 50%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .form-styling {
+        padding: 20px 0px 20px 20px;
+    }
+    .form-styling-exp {
+        padding: 20px 20px 20px 20px;
+    }
+    .form-styling-location {
+        padding: 20px 253px 20px 20px;
+    }
+    .modal-register-jobseeker {
+        padding: 20px 195px;
+    }
+    .job-signin {
+        margin: 10px 0 0px 50%;
+    }
+}
+@media screen and (max-width: 510px) {
+    .jobseeker-details {
+        flex-direction: column;
+    }
+    .exp-flex {
+        flex-direction: column;
+    }
+    .form-styling {
+        padding: 20px 60px 20px 20px;
+    }
+    .form-styling-exp {
+        padding: 20px 80px 20px 20px;
+    }
+    .form-styling-location {
+        padding: 20px 60px 20px 20px;
+    }
+    .modal-register-jobseeker {
+        padding: 20px 95px;
+    }
+    .job-signin {
+        margin: 10px 0 0px 35%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .modalIcon i {
+        display: none;
+    }
+    .modalIcon {
+        position: unset;
+    }
+    .modalIcon input[type=text] {
+        padding-left: 20px;
+    }
+    
+    .modalIcon input[type=email] {
+        padding-left: 20px;
+    }
+    
+    .modalIcon input[type=password] {
+        padding-left: 20px;
+    }
+    .form-styling {
+        padding: 20px 80px 20px 20px;
+    }
+    .form-styling-location {
+        padding: 20px 80px 20px 20px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .jobseeker-subheader {
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .job-signin {
+        margin: 10px 0 0px 10%;
+    }
+    .form-styling {
+        padding: 20px 60px 20px 20px;
+    }
+    .form-styling-location {
+        padding: 20px 60px 20px 20px;
+    }
+    .form-styling-exp {
+        padding: 20px 60px 20px 20px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .jobseeker-subheader {
+        margin-left: 30%;
+    }
+}

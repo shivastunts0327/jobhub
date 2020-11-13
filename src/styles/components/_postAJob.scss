@@ -1,0 +1,206 @@
+.post-a-job-main-container {
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px;
+    padding-bottom: 100px;
+    margin: 50px 150px;
+    padding: 30px 30px 80px 30px;
+}
+
+.post-a-jon-main-heading-img {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: -15px;
+}
+
+.jobInformation-img {
+    width: 50px;
+}
+
+.currentStep-tag {
+    margin-left: 5%;
+}
+
+.jobInformation-tag {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.postajob-label {
+    color: $ihs-color;
+    padding: 10px 0px 5px 0px;
+}
+
+.form-control {
+    padding: 25px 10px;
+    background-color: $white;
+    border: none;
+    box-shadow: 1px 1px 5px 1px #d3d1d1;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: none;
+    box-shadow: 1px 1px 5px 1px #d3d1d1;
+}
+
+#post-a-job-input-label {
+    font-size: 15px;
+}
+
+#jobSummary {
+    height: 200px;
+    font-size: 15px;
+}
+
+#rolesResponsibilities {
+    font-size: 15px;
+    height: 200px;
+}
+
+#benifits-postajob {
+    font-size: 15px;
+    height: 200px;
+}
+
+.previous-postajob {
+    padding: 10px 20px;
+    background: #646464;
+    color: $white;
+    border: none;
+    margin-top: 10px;
+    margin-left: 2%;
+    border-radius: 5px;
+    .fas {
+        padding-right: 10px;
+    }
+}
+
+.next-postajob {
+    padding: 10px 20px;
+    background: #F06D35;
+    color: $white;
+    border: none;
+    margin-top: 10px;
+    margin-right: 2%;
+    border-radius: 5px;
+    .fas {
+        padding-left: 10px;
+    }
+}
+
+.preview-postajob {
+    padding: 10px 20px;
+    background: rgb(73, 165, 73);
+    color: $white;
+    border: none;
+    margin-top: 10px;
+    margin-right: 2%;
+    border-radius: 5px;
+    .fas {
+        padding-left: 10px;
+    }
+}
+
+.post-a-job-submit {
+    position: absolute;
+    padding: 10px 20px;
+    background: rgb(73, 165, 73);
+    color: $white;
+    border: none;
+    margin-left: 50%;
+    margin-top: 10px;
+    border-radius: 5px;
+    .fas {
+        padding-left: 10px;
+    }
+}
+
+.preview-col-p-flex {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+// .preview-output-h3 {
+//     margin-bottom: 15px;
+// }
+
+.preview-output-p {
+    word-break: break-word;
+}
+
+.preview-subheading {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+    .post-a-job-main-container {
+        margin: 50px 100px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .post-a-job-main-container {
+        margin: 50px 0px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .previous-postajob {
+        padding: 10px 10px;
+        margin-left: 2%;
+        font-size: 10px;
+        .fas {
+            padding-right: 10px;
+            font-size: 10px;
+        }
+    }
+    .next-postajob {
+        padding: 10px 10px;
+        margin-right: 2%;
+        font-size: 10px;
+        .fas {
+            font-size: 10px;
+            padding-left: 10px;
+        }
+    }
+    .preview-postajob {
+        padding: 10px 10px;
+        margin-right: 2%;
+        font-size: 10px;
+        .fas {
+            font-size: 10px;
+            padding-left: 10px;
+        }
+    }
+    .post-a-job-submit {
+        padding: 10px 10px;
+        margin-left: 50%;
+        font-size: 10px;
+        .fas {
+            padding-left: 10px;
+            font-size: 10px;
+        }
+    }
+}
+@media screen and (max-width: 434px) {
+    .jobInformation-tag {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 483px) {
+    .preview-col-p-flex {
+        h3 {
+            font-size: 12px;
+        }
+    }
+    .preview-output-p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 361px) {
+    .jobInformation-img {
+        width: 40px;
+    }
+}
