@@ -9,5 +9,5 @@ node{
      def nodejsCMD = "${nodejsHome}/bin/nodejs"
      sh "${nodejsCMD} npm install" 
    } 
-   
+   }
    
