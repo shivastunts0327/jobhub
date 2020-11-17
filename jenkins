@@ -1,0 +1,13 @@
+node{
+   
+   stage('SCM Checkout'){
+   git credentialsId: 'github', url: 'https://github.com/shivastunts0327/jobhub.git'
+   }
+   
+   stage('nodejs Package'){
+   def nodejsHome = tool name: 'nodejs', type: 'nodejs'
+     def nodejsCMD = "${nodejsHome}/bin/nodejs"
+     sh "${nodejsCMD} npm run build" 
+   }
+   
+}
