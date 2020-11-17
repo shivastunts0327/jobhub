@@ -7,7 +7,7 @@ node{
    stage('nodejs Package'){
    def nodejsHome = tool name: 'nodejs', type: 'nodejs'
      def nodejsCMD = "${nodejsHome}/bin/nodejs"
-     sh "${nodejsCMD} npm run build" 
-   }
+     sh "${nodejsCMD} npm install" 
+   } 
    
-}
+   
