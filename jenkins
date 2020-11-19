@@ -3,16 +3,12 @@ node{
  stage('SCM Checkout'){
 git credentialsId: 'github', url: 'https://github.com/shivastunts0327/jobhub.git'
 }
-   
- stage('Sonarqube') {
-    environment {
-        scannerHome = tool 'sonarqube'
+  
+  stage('SonarQube analysis') {
+    def scannerHome = tool 'sonarqube';
+    withSonarQubeEnv('sonarqube') { // If you have configured more than one global server connection, you can specify its name
+      sh "${scannerHome}/bin/sonar-scanner"
     }
-    }
-    stage ('Sonarqube') {
-        withSonarQubeEnv('sonarqube') {
-            sh "${scannerHome}/bin/sonar-scanner"
-        }
-        }
+  }
 
 }
