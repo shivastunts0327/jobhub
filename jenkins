@@ -4,11 +4,14 @@ node{
 git credentialsId: 'github', url: 'https://github.com/shivastunts0327/jobhub.git'
 }
    
-  stage('SonarQube analysis') {
-    def scannerHome = tool 'sonarqube';
-           withSonarQubeEnv("sonarqube") {
-           sh "${scannerHome}/bin/sonar-scanner"
-  }
-  }
+ stage('Sonarqube') {
+    environment {
+        scannerHome = tool 'sonarquber'
+    }
+    stage ('Sonarqube') {
+        withSonarQubeEnv('sonarqube') {
+            sh "${scannerHome}/bin/sonar-scanner"
+        }
+        }
 
 }
