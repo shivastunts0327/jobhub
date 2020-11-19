@@ -1,9 +1,7 @@
 
 node{
-stage('aws cli installing'){
-sh label: '', script: '''
-sudo apt-get update
-echo Y | sudo apt-get install python3-pip
-echo y | sudo apt-get install awscli'''
+stage('aws cli configuring'){
+withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', accessKeyVariable: 'AWS_ACCESS_KEY_ID', credentialsId: '3f67eb6a-9e75-4f5a-9561-1cbef32de495', secretKeyVariable: 'AWS_SECRET_ACCESS_KEY']]) {
 }
+
 }
