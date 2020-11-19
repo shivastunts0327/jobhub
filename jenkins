@@ -1,7 +1,9 @@
+
 node{
-
-stage('SCM Checkout'){
-git credentialsId: 'github', url: 'https://github.com/shivastunts0327/jobhub.git'
-
+stage('aws cli installing'){
+sh label: '', script: '''
+sudo apt-get update
+echo Y | sudo apt-get install python3-pip
+echo y | sudo apt-get install awscli'''
 }
-   }
+}
