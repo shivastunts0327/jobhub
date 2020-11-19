@@ -6,9 +6,9 @@ node{
    
    
      stage('nodejs Package'){
-   def nodejsHome = tool name: 'nodejs', type: 'nodejs'
-     def nodejsCMD = "${nodejsHome}/bin/nodejs"
+     nodejs(cacheLocationStrategy: workspace(), nodeJSInstallationName: 'nodejs') {    
      sh "npm install" 
+     }
    } 
    
    }
