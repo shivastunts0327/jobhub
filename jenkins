@@ -13,5 +13,5 @@ git credentialsId: 'github', url: 'https://github.com/shivastunts0327/jobhub.git
             sh "${scannerHome}/bin/sonar-scanner"
         }
         }
-
+}
 }
