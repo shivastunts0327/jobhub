@@ -1,8 +1,8 @@
 node{
 stage('node js build moves to s3 bucket'){
  sh label: '', script: '''
-   aws s3 rm s3://ihscareers.com --recursive
-	aws s3 cp /var/lib/jenkins/workspace/ihscareers/public/ s3://ihscareers.com --recursive'''
+   sudo aws s3 rm s3://ihscareers.com --recursive
+   sudo aws s3 cp /var/lib/jenkins/workspace/ihscareers/public/ s3://ihscareers.com --recursive'''
 	}
 
 }
