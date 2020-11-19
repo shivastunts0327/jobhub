@@ -1,8 +1,17 @@
 node{
-stage('node js build moves to s3 bucket'){
- sh label: '', script: '''
-   sudo aws s3 rm s3://ihscareers.com --recursive
-   sudo aws s3 cp /var/lib/jenkins/workspace/ihscareers/public/ s3://ihscareers.com --recursive'''
-	}
+ 
+ stage('SCM Checkout'){
+git credentialsId: 'github', url: 'https://github.com/shivastunts0327/jobhub.git'
+}
+ 
+ 
+ 
+ 
+ stage('SonarQube analysis') {
+    def scannerHome = tool 'sonarqube';
+           withSonarQubeEnv("sonarqube") {
+           sh "${scannerHome}/bin/sonar-scanner -e -Dsonar.host.url=http://13.235.16.197:9000/ -Dsonar.sourceEncoding=UTF-8 -Dsonar.projectKey=ihscarriers -Dsonar.java.binaries=bin -Dsonar.language=src"
+  }
+  }
 
 }
