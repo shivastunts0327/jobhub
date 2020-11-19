@@ -1,7 +1,5 @@
 node{
    
-   node{
-   
    stage('SCM Checkout'){
    git credentialsId: 'github', url: 'https://github.com/shivastunts0327/jobhub.git'
    }
