@@ -7,7 +7,7 @@ git credentialsId: 'github', url: 'https://github.com/shivastunts0327/jobhub.git
   stage('SonarQube analysis') {
     def scannerHome = tool 'sonarqube';
            withSonarQubeEnv("sonarqube") {
-           sh "${scannerHome}/bin/sonar-scanner -e -Dsonar.host.url=http://13.235.16.197:9000 -Dsonar.projectKey=ihscareers -Dsonar.sources=. -Dsonar.login=d7fa64c574caceb91daef1fcabc0e131e9fd33e8''
+           sh "${scannerHome}/bin/sonar-scanner -e -Dsonar.host.url=http://13.235.16.197:9000 -Dsonar.projectKey=ihscareers''
   }
   }
 
