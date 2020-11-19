@@ -3,7 +3,7 @@ node{
 stage('SCM Checkout'){
 sh label: '', script: '''sudo chmod 777 /opt
 cd /opt
-sudo git clone git credentialsId: 'github', url: 'https://github.com/shivastunts0327/jobhub.git'
+git credentialsId: 'github', url: 'https://github.com/shivastunts0327/jobhub.git'
 chmod 777 jobhub'''
 
 }
