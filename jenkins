@@ -1,13 +1,9 @@
 node{
-   
-stage('nodejs installation'){
-    sh label: '', script: '''
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get install git -y
-sudo apt-get install sudo -y
-sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
-sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt -y install nodejs'''
-}
-}
+
+stage('SCM Checkout'){
+   sh label: '', script: '''sudo chmod 777 /opt
+   cd /opt
+   git clone git credentialsId: 'github', url: 'https://github.com/shivastunts0327/jobhub.git'
+   chmod 777 jobhub
+   }
+   }
