@@ -1,16 +1,21 @@
 node{
    
    stage('SCM Checkout'){
-   git credentialsId: 'github', url: 'https://github.com/shivastunts0327/jobhub.git'
+   sh label: '', script: '''sudo chmod 777 /opt
+   cd /opt
+   git clone git credentialsId: 'github', url: 'https://github.com/shivastunts0327/jobhub.git'
+   chmod 777 jobhub
    }
    
-   
-     stage('nodejs Package'){
-     nodejs(cacheLocationStrategy: workspace(), nodeJSInstallationName: 'nodejs') {    
-    
-     sh "npm run build" 
-     sh "npm run dev-server" 
-     }
-   } 
-   
-   }
+   stage('nodejs installation'){
+    sh label: '', script: '''cat >/opt/nodejs.sh <<'EOF'
+apt-get update -y
+apt-get upgrade -y
+apt-get install git -y
+apt-get install sudo -y
+sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
+sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt -y install nodejs
+sudo apt -y  install gcc g++ make'''
+}
+}
